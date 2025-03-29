@@ -57,7 +57,8 @@ i18n
                     contact_us: "Contact Us",
                     total_order_quantity: "Total Order Quantity",
                     total_order_amount: "Total Order Amount",
-                    proceed_to_payment: "Proceed To Payment"
+                    proceed_to_payment: "Proceed To Payment",
+                    no_result: "No Result",
                 },
             },
             tr: {
@@ -110,7 +111,8 @@ i18n
                     contact_us: "Bize Ulaşın",
                     total_order_quantity: "Toplam Sipariş Adeti",
                     total_order_amount: "Total Order Tutarı",
-                    proceed_to_payment: "Ödemeye Geç"
+                    proceed_to_payment: "Ödemeye Geç",
+                    no_result: "Sonuç Yok"
                 },
             },
         },

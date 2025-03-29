@@ -1,8 +1,10 @@
 import "./loadingCircle.css"
 
-const LoadingCircle = () => {
+const LoadingCircle = ({searchLoading}) => {
     return (
-        <div className="lds-container">
+        <div className="lds-container" style={{
+            height: searchLoading ? "100%" : "100vh",
+        }}>
             <div className="lds-roller">
                 <div></div>
                 <div></div>

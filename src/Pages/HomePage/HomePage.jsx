@@ -28,7 +28,7 @@ const HomePage = () => {
     const nav = useNavigate()
     const [loading, setLoading] = useState(false);
 
-    const auth = async (param) => {
+    const getProducts = async (param) => {
         setLoading(true)
         await api()
             .post("Products/List", {
@@ -46,7 +46,7 @@ const HomePage = () => {
     }
 
     useEffect(() => {
-        auth()
+        getProducts()
     }, [])
 
     const addItem = (product) => {

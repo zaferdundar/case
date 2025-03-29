@@ -173,8 +173,61 @@
     position: relative;
 }
 
+.header-search-drop-down-menu {
+    position: absolute;
+    top: 40px;
+    height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 99;
+    border-radius: 10px;
+    background-color: var(--primary-header-background-color);
+    border:1px solid var(--primary-border-color)
+}
+
+.dd-image {
+    width: 100px;
+}
+
+.dd-image img {
+    width: 100%;
+}
+
+.dd-item {
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-search-area-background-color);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 .header-search-input {
     width: 100%;
+}
+
+.dd-item-name span {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family), serif;
+    font-size: var(--secondary-font-size);
+    font-weight: var(--secondary-font-weight);
+}
+
+.dd-item-info span {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family), serif;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font-weight);
+}
+
+.dd-item-price {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family), serif;
+    font-size: var(--secondary-font-size);
+    font-weight: var(--primary-font-weight);
 }
 
 .header-search-input input {
@@ -397,4 +450,22 @@
 
 .preferences-menu-save-btn button:hover {
     background-color: var(--primary-button-hover-background-color);
+}
+
+.dd-items {
+    height: 100%;
+}
+
+.dd-attention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dd-attention span {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family), serif;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font-weight);
 }
