@@ -7,3 +7,8 @@
 .ReactModal__Overlay {
     z-index: 9999;
 }
+
+.header-mobile-menu-icon, .header-mobile-login-icon {
+    color: var(--primary-basket-color);
+    cursor: pointer;
+}

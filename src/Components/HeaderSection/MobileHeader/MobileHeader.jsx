@@ -22,7 +22,7 @@ const customStyles = {
         borderRadius: '0',
         border: 'none',
         boxShadow: '4px 0 10px rgba(0, 0, 0, 0.2)',
-        backgroundColor: '#212630',
+        backgroundColor: 'var(--primary-header-background-color)',
         outline: 'none',
         borderTopRightRadius: '10px',
         borderBottomRightRadius: '10px',
@@ -65,11 +65,11 @@ const MobileHeader = () => {
                 <div className="header-mobile-holder">
                     <div className="header-mobile-top">
                         <div className="header-mobile-menu-icon" onClick={() => setOpenMenu(true)}>
-                            <RxHamburgerMenu size={30} color="#FFFF"/>
+                            <RxHamburgerMenu size={30}/>
                         </div>
                         <HeaderLogo/>
                         <div className="header-mobile-login-icon">
-                            <CiLogin size={30} color="#FFFF"/>
+                            <CiLogin size={30}/>
                         </div>
                     </div>
                     <HeaderSearchArea/>

@@ -23,7 +23,7 @@
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color: #17181C;
+    background-color: var(--primary-menu-item-background-color);
     cursor: pointer;
     transition: 0.3s all;
 }

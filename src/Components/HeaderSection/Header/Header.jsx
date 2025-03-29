@@ -1,10 +1,9 @@
 import {Link, useLocation, useNavigate} from "react-router-dom";
 import "./header.css"
-import {FaCaretDown, FaDiscord, FaEyeSlash, FaInstagram, FaMoon, FaPlus, FaYoutube} from "react-icons/fa";
-import {FaBasketShopping, FaXTwitter} from "react-icons/fa6";
+import {FaCaretDown, FaMoon} from "react-icons/fa";
+import {FaBasketShopping} from "react-icons/fa6";
 import GlobalContainer from "../../../GlobalContainer/GlobalContainer.jsx";
 import {BsSun} from "react-icons/bs";
-import {HiMagnifyingGlass} from "react-icons/hi2";
 import {useSelector} from "react-redux";
 import MobileHeader from "../MobileHeader/MobileHeader.jsx";
 import HeaderLogo from "../HeaderLogo/HeaderLogo.jsx";
@@ -159,7 +158,7 @@ const Header = () => {
                                             <div className="preferences-menu-container">
                                                 <div className="preferences-menu-item">
                                                     <div className="preferences-menu-title">
-                                                        <span>{t("selectedLanguage")}</span>
+                                                        <span>{t("language")}</span>
                                                     </div>
                                                     <div>
                                                         <select
@@ -179,7 +178,7 @@ const Header = () => {
                                                 </div>
                                                 <div className="preferences-menu-item">
                                                     <div className="preferences-menu-title">
-                                                        <span>{t("language")}</span>
+                                                        <span>{t("currency")}</span>
                                                     </div>
                                                     <div>
                                                         <select
