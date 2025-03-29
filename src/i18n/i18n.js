@@ -1,0 +1,125 @@
+import i18n from "i18next";
+import {initReactI18next} from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+
+i18n
+    .use(LanguageDetector)
+    .use(initReactI18next)
+    .init({
+        resources: {
+            en: {
+                translation: {
+                    sign_in: "SIGN IN",
+                    english: "English",
+                    turkish: "Turkish",
+                    language: "Language",
+                    change_language: "Change Language",
+                    selectedLanguage: "English",
+                    your_orders: "Your Orders",
+                    account: "Account",
+                    streamers: "Streamers",
+                    add_item_to_marketplace: "Add Item to Marketplace",
+                    redeem_credit: "Redeem Credit",
+                    save: "Save",
+                    searchBoxPlaceHolder: "Search for product, category or brand",
+                    categories: "Categories",
+                    market_place: "Market Place",
+                    corporate: "Corporate",
+                    about_us: "About Us",
+                    support_center: "Support Center",
+                    dealership: "Dealership",
+                    contracts: "Contracts",
+                    privacy_policy: "Privacy Policy",
+                    user_agreement: "User Agreement",
+                    sales_agreement: "Sales Agreement",
+                    refund_policy: "Refund Policy",
+                    pdpl: "PDPL",
+                    cookie_policy: "Cookie Policy",
+                    popular_list: "Popular List",
+                    FOOTER_POPULAR_LIST: {
+                        buy_pubg_rnd_account: "Buy Random PUBG Account",
+                        buy_mlbb_account: "Buy MLBB Account",
+                        buy_steam_rnd_key: "Buy Random Steam Key",
+                        buy_roblox_account: "Buy Roblox Account",
+                        buy_discord_nitro: "Buy Discord Nitro",
+                        buy_instagram_followers: "Buy Instagram Followers",
+                    },
+                    best_sellers: "Best Sellers",
+                    FOOTER_BEST_SELLERS: {
+                        buy_lol_rp: "Buy LoL RP",
+                        buy_pubg_uc: "Buy PUBG UC",
+                        buy_valorant_vp: "Buy Valorant VP",
+                        buy_mlbb_diamond: "Buy MLBB Diamond",
+                        buy_roblux_robux: "Buy Roblux Robux",
+                        buy_brawl_stars_diamond: "Buy Brawl Stars Diamond",
+                    },
+                    contact_us: "Contact Us",
+                    total_order_quantity: "Total Order Quantity",
+                    total_order_amount: "Total Order Amount",
+                    proceed_to_payment: "Proceed To Payment"
+                },
+            },
+            tr: {
+                translation: {
+                    sign_in: "GİRİŞ YAP",
+                    english: "İngilizce",
+                    turkish: "Türkçe",
+                    language: "Dil",
+                    change_language: "Dili Değiştir",
+                    selectedLanguage: "Türkçe",
+                    your_orders: "Siparişlerim",
+                    account: "Hesabım",
+                    streamers: "Yayıncılar",
+                    add_item_to_marketplace: "İlan Ekle",
+                    redeem_credit: "Bakiye Ekle",
+                    save: "Kaydet",
+                    searchBoxPlaceHolder: "Ürün, kategori veya ilan ara",
+                    categories: "Kategoriler",
+                    market_place: "İlan Pazarı",
+                    corporate: "Kurumsal",
+                    about_us: "Hakkımızda",
+                    support_center: "Destek Merkezi",
+                    dealership: "Bayilik",
+                    contracts: "Sözleşmeler",
+                    privacy_policy: "Gizlilik Politikası",
+                    user_agreement: "Kullanıcı Sözleşmesi",
+                    sales_agreement: "Satış Sözleşmesi",
+                    refund_policy: "İptal & İade Koşulları",
+                    pdpl: "KVKK",
+                    cookie_policy: "Çerez Politikası",
+                    popular_list: "Popüler İlanlar",
+                    FOOTER_POPULAR_LIST: {
+                        buy_pubg_rnd_account: "PUBG Random Hesap Satın Al",
+                        buy_mlbb_account: "MLBB Hesap Satın Al",
+                        buy_steam_rnd_key: "Steam Random Key Satın Al",
+                        buy_roblox_account: "Roblox Hesap Al",
+                        buy_discord_nitro: "Discord Nitro Satın Al",
+                        buy_instagram_followers: "Instagram Takipçi Satın al",
+                    },
+                    best_sellers: "Çok Satanlar",
+                    FOOTER_BEST_SELLERS: {
+                        buy_lol_rp: "LoL RP Satın Al",
+                        buy_pubg_uc: "PUBG UC Satın Al",
+                        buy_valorant_vp: "Valorant VP Satın Al",
+                        buy_mlbb_diamond: "MLBB Elmas Satın Al",
+                        buy_roblux_robux: "Roblox Robux Satın Al",
+                        buy_brawl_stars_diamond: "Brawl Stars Elmas Satın Al",
+                    },
+                    contact_us: "Bize Ulaşın",
+                    total_order_quantity: "Toplam Sipariş Adeti",
+                    total_order_amount: "Total Order Tutarı",
+                    proceed_to_payment: "Ödemeye Geç"
+                },
+            },
+        },
+        fallbackLng: "tr",
+        detection: {
+            order: ["localStorage", "cookie", "navigator"],
+            caches: ["localStorage", "cookie"],
+        },
+        interpolation: {
+            escapeValue: false,
+        },
+    });
+
+export default i18n;

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /*bg colors*/
+    --primary-header-background-color: #212630;
+
+    --primary-search-area-background-color: #1A1E26;
+
+    --primary-menu-item-background-color: #181D26;
+
+    --primary-basket-color: #FFFFFF;
+
+    --primary-basket-count-color: #FFFFFF;
+
+    --primary-basket-count-bacground-color: #3D7DC8;
+
+    --primary-header-preferences-background-color: #1A1E26;
+
+    --primary-slider-container-background-color: #1A1E26;
+
+    --primary-button-not-hover-background-color: #1A1E26;
+
+    --primary-button-hover-background-color: #3D7DC8;
+
+    /*border colors*/
+    --primary-border-color: #3D7DC8;
+
+    /*font*/
+    --primary-font-color: #FFF;
+
+    --primary-hover-font-color: #3D7DC8;
+
+    --primary-font-family: 'Poppins', sans-serif;
+
+    --primary-font-size: 12px;
+    --secondary-font-size: 16px;
+
+    --primary-font-weight: 600;
+    --secondary-font-weight: 700;
+
+    /*icon*/
+    --primary-header-icon-color: #FFF;
+    --primary-header-icon-size: 22px;
+
+}
+
+[data-theme="light"] {
+    /*bg colors*/
+    --primary-header-background-color: #FFFFFF;
+
+    --primary-search-area-background-color: #E9E9E9;
+
+    --primary-menu-item-background-color: #E9E9E9;
+
+    --primary-basket-color: #212630;
+
+    --primary-basket-count-color: #FFFFFF;
+
+    --primary-header-preferences-background-color: #F7F7F7;
+
+    --primary-slider-container-background-color: #FFFFFF;
+
+    --primary-button-not-hover-background-color: #E9E9E9;
+
+    --primary-button-hover-background-color: #3D7DC8;
+
+    /*border color*/
+    --primary-border-color: #212630;
+
+    /*font*/
+    --primary-font-color: #3B3B3B;
+
+    /*icon*/
+    --primary-header-icon-color: #000;
+}

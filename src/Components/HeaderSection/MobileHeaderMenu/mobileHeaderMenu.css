@@ -1,0 +1,46 @@
+.mobile-header-menu-close-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-header-menu-close-btn button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    background-color: #3D7DC8;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 1px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.mobile-header-menu-close-btn button:hover {
+    scale: 1.2
+}
+
+.mobile-header-menu-item {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #17181C;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.mobile-header-menu-item:hover {
+    background-color: #ffc300;
+}
+
+.mobile-header-menu-item span {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family), serif;
+    font-size: var(--primary-font-size);
+    font-weight: var(--primary-font-weight);
+}
+
+.mobile-header-menu-items {
+    overflow-y: auto;
+    height: calc(100vh - 110px);
+    margin-top: 5px;
+}
